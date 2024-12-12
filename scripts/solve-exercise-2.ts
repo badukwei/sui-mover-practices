@@ -34,7 +34,7 @@ async function main() {
     arguments: [pickaxeStore, tx.pure.u8(tier), payment],
   });
 
-  // eploit to get Ore. TODO: fill in correct target and arguments
+  // exploit to get Ore. TODO: fill in correct target and arguments
   const [ore] = tx.moveCall({
     target: `${EXERCISE_2_PACKAGE}::module::function`,
     arguments: [
