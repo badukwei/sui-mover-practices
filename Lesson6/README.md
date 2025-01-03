@@ -46,9 +46,9 @@ sui client call \
 sui client ptb \
 --assign pool @0xbc583ae6c5a185ae1d74e7f979f0f57b3b579abc54b6d1141bf4f1889d98ec10 \
 --assign policy @0x9d7f0ec42b5b1b790c893f2679c4edc1efe1d5f20ca63cf23c2460b0042d74d8 \
---assign whitelist @0xe95ff9dcc835f0320cdb69c2d19f8571c3bad23298f14b3f405caed18b927e4b \
---assign kiosk @0x90df9555659e8d1fe6a57e8c1f1c67a2a093b0ba3ae3de23da2a46d3d3b4b599 \
---assign kiosk_cap @0x4854d1d173f8b13d7449e6081159a543d3dfaa3f466f7c80a0b1f73ac561de00 \
+--assign whitelist @0xcfc1fcd3b9b40a2d2380086779aca28635c69331910e51425a9089ca4b846424 \
+--assign kiosk @0x1fc79bb3ce7e50ae4425d450e00b4575b5376588f8e3b7e47baf25ae37f80bca \
+--assign kiosk_cap @0xcd7e76c75d3639bb8eee742d10163e1bb09013183912e720e79b2825e893a22f \
 --assign random @0x8 \
 --move-call 0x27321bc52766f3ed3f809524ca0149bdbbf01f7f18bdccc261eab2dc5fa14589::mover_nft::free_mint_into_kiosk pool policy whitelist kiosk kiosk_cap random \
 --gas-budget 100000000
